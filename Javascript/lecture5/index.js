@@ -49,24 +49,26 @@ Greet();   // function call
 
 // function in a variable 
 
-const getMultiply = function(a,b){
-    return a*b;
-}
+// const getMultiply = function(a,b){
+//     return a*b;
+// }
 
-let ans = getMultiply(5,10);
-console.log(ans)
+// let ans = getMultiply(5,10);
+// console.log(ans)
 
-const getSquare = function(num){
-    return num**2;
-}
+// const getSquare = function(num){
+//     return num**2;
+// }
 
-let square = getSquare(5);
-console.log(square)
+// let square = getSquare(5);
+// console.log(square)
 
-// Arrow function ---> most wanted
+// // Arrow function ---> most wanted
 
-const getExp = (x,y)=>{
-  return x**y;
-} 
-let exp = getExp(5,2);
-console.log(exp);
+// const getExp = (x,y)=>{
+//   return x**y;
+// } 
+// let exp = getExp(5,2);
+// console.log(exp);
+
+
