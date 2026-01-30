@@ -1,0 +1,16 @@
+changing css using js 
+5 properties
+1- .style - kisi bhi element k upr style property ko use krke inline css change kr skte ha--- get/set 
+ drawback of style property : ek bar me ek hi property ko change kr pati ha
+
+2- .cssText - multipleInline styles ko access kr skte ha ek hi bar me 
+
+3- .setAttribut- koi bhi attribute jo aap btaoge or us attribute ki value jo provide kroge , then setAttribute us value ko attribute pr set krdega
+agr phle se koi value ha to usko update kr dega 
+
+4- .className - className property ki help se hm get kr skte ha konsi konsi class ha ki bhi tag pr 
+or agr update krna chahe to bhi kr skte ha 
+
+
+5-  .classList -get kr skye ha class ko array formate m 
+     kchh additional props ha : - add , remove, toggle , contains 5
