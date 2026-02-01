@@ -38,6 +38,5 @@ console.log(fname.classList);
 fname.classList.toggle('abc');
 console.log(fname.classList)
 
-
 let ans = fname.classList.contains('xyz');
 console.log(ans)
