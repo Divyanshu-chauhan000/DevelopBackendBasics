@@ -1,0 +1,34 @@
+Async ---- Await
+
+Async -await ka use krke aap apne asynchronous  code ko  synchronous code ki trh darsha pate ha
+Async function hmesha ek "promise" return kr rha hota ha
+
+//code - synchronous
+// asy code
+// code synchronous
+
+agr aap chhte ha ki 3no line synchronous manner m execute ho
+
+to jo hmara hmara asynchronous code ha usko "Await" mark krna pd jayga --- jaise hi m apne code ko async mark krta hu  
+to jo asynchronous code h phle bo hi chlega then flow of execution next line pr jayga
+
+Fetch API:-
+type of requests -
+get
+post
+put
+delete
+
+fetching scenerio:-
+
+prpare url / api endpoint ----> sync 
+fetch data ------> network call ----> async   jab tak mera data network call s na aay tb usko usko process kase krunga , 
+to phle data recieve krna pdega isliye hm isko "await" mark kr denge 
+process data-----> printing data ---> sync
+
+1.Get
+to phle GET request marenge jo ki ek async code h isliy await lgega get k sath
+fir response.json();  se data ko parse krlenge  ye bhi asynchronous hota ha   --> asynchronous ----> await lga denge
+
+
+2.

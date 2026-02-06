@@ -1,0 +1,39 @@
+Browser Events
+*  Event is just like an announcement by the browser--  with each an action is performed 
+Event-target
+ek prakar ki entity ha jha pr aapka event receive hua ha
+Example1 - agr kisi website pr button ek element ha or hmne usko click krdiya to button hmara event Target hogya
+
+button ko click krne pr jo action perform hoga .... us action ko hmne ek jgh pr likh diya ... jisko hm bolte ha "EventListner"
+
+
+Example 2-
+Let suppose ek website ha 
+humne ek button pr click kiya or ek video play hogyi
+
+Event - click
+Event-Target - button
+Action/Behaviour - Video play
+EventListner - jha pr is action ko perform hone ka logic likha ha 
+i - addEventListner  --- by default in Bubbling phase  {"useCapture = true " krke hm capturing phase m addEventListner ko hit kra skte ha}
+ii - removeEventListner
+
+
+Phases of Event :-
+
+capturing phase - jisme event target k upr phcha jata ha 
+At-target phase - ki m target pr aagya hu 
+Bubbling phase - bps apne root element pr jane ka phase
+
+
+Event object:-
+jab bhi koi event trigger hota ha to uska ek object Listner k pass jata ha 
+
+Default action:-
+hr element ka ek na ek default action hota ha
+
+""""Interview Problem  """"
+Avoiding too many EventListner 
+
+
+Ques: Kase me DOMContent loaded event ka use krke dynamic  script kase add kr skta hu ?

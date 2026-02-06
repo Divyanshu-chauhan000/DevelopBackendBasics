@@ -1,0 +1,15 @@
+Promises:-
+Promise ek object ha, jo represent krta ha resulting/returning state ko ya completion state ko kisi bhi asynchronous piece of code ke
+States of Promise:
+1. pending 
+2. fulfilled  --resolved successfully
+3. rejected   --failure
+
+nya Promise create krne k liy ----> Promise((resolve, reject)=>{
+
+let ek promise bnaya or uske fulfilled hone k baad m kchh task perform krna chhta hu
+tb m use krunga then();
+ager koi promise failure / reject hogya then i can use catch block 
+
+promise chaining --- multiple promises
+})

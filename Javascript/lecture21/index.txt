@@ -1,0 +1,6 @@
+Closures in jS : 
+
+jb ek fucntion ko uske required data k sath bind jab krte ha to bo uska closure bna jata ha 
+closure --- {function + (required data / lexical scope / surrounding data)}
+
+references are stored :-
