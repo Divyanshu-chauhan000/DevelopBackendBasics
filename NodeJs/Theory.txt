@@ -1,0 +1,5 @@
+How DNS works ---> Domain Name service 
+1.Domain Name Entry
+2.DNS Query
+3.DNS Server
+4.Browser Connects
